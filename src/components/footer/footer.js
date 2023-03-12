@@ -1,4 +1,6 @@
 import React from 'react';
+import './footer.css';
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -9,45 +11,45 @@ function Footer() {
                         <div className="footer-col">
                             <h4>DT Airlines</h4>
                             <ul className="item">
-                                <li><a>Experiencia DT</a></li>
-                                <li><a>Prepara tu viaje</a></li>
-                                <li><a>Mis viajes</a></li>
-                                <li><a>Estado de vuelo</a></li>
+                                <li><Link to='#'>Experiencia DT</Link></li>
+                                <li><Link to='#'>Prepara tu viaje</Link></li>
+                                <li><Link to='#'>Mis viajes</Link></li>
+                                <li><Link to='#'>Estado de vuelo</Link></li>
                             </ul>
                         </div>
                         <div className="footer-col">
                             <h4>Informacion Legal</h4>
                             <ul className="item">
-                                <li><a>Devolución de tasas de embarque</a></li>
-                                <li><a>Conoce tus derechos</a></li>
-                                <li><a>Cargos por servicio</a></li>
-                                <li><a>Políticas de privacidad y seguridad</a></li>
-                                <li><a>Términos de uso</a></li>
+                                <li><Link to='#'>Devolución de tasas de embarque</Link></li>
+                                <li><Link to='#'>Conoce tus derechos</Link></li>
+                                <li><Link to='#'>Cargos por servicio</Link></li>
+                                <li><Link to='#'>Políticas de privacidad y seguridad</Link></li>
+                                <li><Link to='#'>Términos de uso</Link></li>
                             </ul>
                         </div>
                         <div className="footer-col">
                             <h4>Portales asociados</h4>
                             <ul className="item">
-                                <li><a>LATAM Pass</a></li>
-                                <li><a>Vamos / LATAM</a></li>
-                                <li><a>Paquetes, hoteles y más</a></li>
-                                <li><a>LATAM Corporate</a></li>
+                                <li><Link to='#'>LATAM Pass</Link></li>
+                                <li><Link to='#'>Vamos / LATAM</Link></li>
+                                <li><Link to='#'>Paquetes, hoteles y más</Link></li>
+                                <li><Link to='#'>LATAM Corporate</Link></li>
                             </ul>
                         </div>
                         <div className="footer-col">
                             <h4>síguenos</h4>
                             <div className="social-links">
-                                <a><i className="fab fa-facebook-f"></i></a>
-                                <a><i className="fab fa-twitter"></i></a>
-                                <a><i className="fab fa-instagram"></i></a>
-                                <a><i className="fab fa-linkedin-in"></i></a>
+                                <Link to='#'><i className="fab fa-facebook-f"></i></Link>
+                                <Link to='#'><i className="fab fa-twitter"></i></Link>
+                                <Link to='#'><i className="fab fa-instagram"></i></Link>
+                                <Link to='#'><i className="fab fa-linkedin-in"></i></Link>
                             </div>
                         </div>
                         <div className="footer-col">
                             <h4>Nuestra app en tu teléfono</h4>
                             {/* <div className="plataformas">
-                                <a><img src="/images/partials/as.jpeg" alt=""></a>
-                                <a><img src="/images/partials/gp.png" alt=""></a>
+                                <Link to='#'><img src="/images/partials/as.jpeg" alt=""></Link>
+                                <Link to='#'><img src="/images/partials/gp.png" alt=""></Link>
                             </div>  */}
                         </div>
                     </div>

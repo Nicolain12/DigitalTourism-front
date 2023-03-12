@@ -1,12 +1,13 @@
 import React from 'react';
+import './mainIndex.css';
 
 function MainIndex() {
     return (
         <div className="App-mainIndex">
             <main className="mainIndex">
-                <div>
+                {/* <div>
                     <img src="/images/flights/495536-lasvegas.webp" alt=""></img>
-                </div>
+                </div> */}
                 <section className="section-nav">
                     <div className="div-top">
                         <div className="busca-paquete">

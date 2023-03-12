@@ -1,35 +1,34 @@
 import React from 'react';
+import './header.css';
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <div className="App-header">
             <header className="App-header">
                 <div className="div-logo">
-                    <a>
+                    <Link to='/'>
                         <img className="logo-img" src="/images/partials/logo.jpeg" alt="Imagen Logo"></img>
-                    </a>
+                    </Link>
                 </div>
                 <div className="div-pages">
                     <ul type="none">
-                        <li><a>Vuelos</a></li>
-                        <li><a>Hoteles</a></li>
-                        <li><a>Paquetes</a></li>
-                        <li><a>Crear Producto</a></li>
+                        <li><Link to='#'>Vuelos</Link></li>
+                        <li><Link to='#'>Hoteles</Link></li>
+                        <li><Link to='#'>Paquetes</Link></li>
+                        <li><Link to='#'>Crear Producto</Link></li>
                     </ul>
                 </div>
 
                 <div className="div-links">
                     <div className="div-i-1">
-                        <a><i className="fa-solid fa-plane-up"></i></a>
+                        <Link to='#'><i className="fa-solid fa-plane-up"></i></Link>
                     </div>
                     <div className="div-i-2">
-                        <a><i className="fa-solid fa-user"></i></a>
-                        <div className="div-i-2">
-                            <a><i className="fa-solid fa-user"></i></a>
-                        </div>
+                        <Link to='#'><i className="fa-solid fa-user"></i></Link>
                     </div>
                     <div className="burger-menu">
-                        <a><i className="fas fa-bars"></i></a>
+                        <Link to='#'><i className="fas fa-bars"></i></Link>
                     </div>
                 </div>
             </header>
